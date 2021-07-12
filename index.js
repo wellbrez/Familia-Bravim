@@ -16,9 +16,11 @@ const telefone=
 "Michele":"27 99769-1173",
 "Ivan":"85 9633-5284",
 "Pâmela":"28 99996-0792",
-"Lucas":"28 99996-0792",
+"Lucas":"27 99992-2180",
 "Mateus":"27 98151-6146",
 "Lisandra":"27 99822-7434",
+"Rogério":"27 3065-0407",
+"Hellena":"27 99745-1457"
 }
 
 const pais = document.getElementsByClassName("geracao1");
