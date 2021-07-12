@@ -20,7 +20,9 @@ const telefone=
 "Mateus":"27 98151-6146",
 "Lisandra":"27 99822-7434",
 "Rogério":"27 3065-0407",
-"Hellena":"27 99745-1457"
+"Hellena":"27 99745-1457",
+"Lucéia":"27 99689-1574",
+"Kailani":"27 99727-7374"
 }
 
 const pais = document.getElementsByClassName("geracao1");
