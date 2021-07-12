@@ -50,7 +50,7 @@ function janela(nome)
     let telefonePuro = telefonep.replace(' ',"");
     telefonePuro = telefonePuro.replace('-',"");
 
-    nome = `Nome: ${nome}<br>Telefone: <a href=tel:${telefonePuro}>${telefonep}</a>`
+    nome = `Nome: ${nome}<br>Telefone: <a href="tel:${telefonePuro}">${telefonep}</a>`
     document.getElementById("fundo2").classList.remove('closed');
     console.log("oi");
     const janela = document.getElementById("janela");
