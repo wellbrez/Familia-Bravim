@@ -170,7 +170,7 @@ span,a{
     max-width:0px;
     overflow:hidden;
 }
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
     .nucleo0
     {
     background-color:lightblue;
