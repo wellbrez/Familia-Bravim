@@ -46,7 +46,11 @@ for(let pessoa of filhos)
 
 function janela(nome)
 {
-    nome = `Nome: ${nome}<br>Telefone: <a href=tel:${telefone[nome]}>${telefone[nome]}</a>`
+    const telefonep = telefone[nome]
+    let telefonePuro = telefonep.replace(' ',"");
+    telefonePuro = telefonePuro.replace('-',"");
+
+    nome = `Nome: ${nome}<br>Telefone: <a href=tel:${telefonePuro}>${telefonep}</a>`
     document.getElementById("fundo2").classList.remove('closed');
     console.log("oi");
     const janela = document.getElementById("janela");
