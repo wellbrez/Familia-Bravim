@@ -32,12 +32,12 @@ span,a{
     width:60%;
     height:auto;
     display:grid;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns:1fr;
     grid-template-rows:auto 1fr 1fr;
     grid-template-areas:
-    "x x"
-    ". ."
-    ". .";
+    "x "
+    ". "
+    ". ";
     place-items:center;
     z-index:200;
     overflow:hidden;
