@@ -58,5 +58,3 @@ function fecharJanela()
     document.getElementById("janela").classList.add('closed');
     document.getElementById("fundo2").classList.add('closed');
 }
-janela("potato");
-
