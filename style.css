@@ -1,0 +1,172 @@
+*
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif  ;
+    color:white;
+    font-size:large;
+}
+body
+{
+    margin:0 auto;
+    padding:0px;
+    display:grid;
+    place-items:center;
+    width:100%;
+    height:100%;
+    position:fixed;
+}
+#fundo2
+{
+    position:fixed;
+    margin:0 auto;
+    width:100%;
+    height:100%;
+    display:grid;
+    place-items:center;
+}
+span,a{
+    color:black;
+}
+#janela
+{
+    background:white;
+    width:60%;
+    height:80%;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:auto 1fr 1fr;
+    grid-template-areas:
+    "x x"
+    ". ."
+    ". .";
+    place-items:center;
+    z-index:200;
+    overflow:hidden;
+    border-radius:20px;
+}
+.btnclose
+{
+    background:red;
+    width:100%;
+    grid-area:x;
+    display:grid;
+    place-items:center;
+    cursor:pointer;
+
+}
+.btnclose:hover
+{
+    background:rgb(117, 6, 6);
+
+}
+
+.nucleo0
+{
+    background-color:lightblue;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    ". d a ."
+    ". . . ."
+    ". . . ."
+    ". . . .";
+    place-items:center;
+   
+    width:90%;
+    height:90vh;
+    border-radius:20px;
+    padding:20px;
+}
+.geracao0
+{
+    background-color:rgb(146, 7, 111);
+    color:white;
+    width:100%;
+    border-radius:20px;
+    height:100%;
+    display:grid;
+    place-items:center;
+    font-size:xx-large;
+}
+.nucleo2
+{
+    display:grid;
+    grid-template-rows:1fr 1fr;
+    padding:0px;
+    width:100%;
+    place-items:center;
+}
+
+.nucleo
+{
+    background-color:brown;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:1fr 2fr;
+    row-gap:10px;
+    margin:5%;
+    width:90%;
+    place-items:center;
+    border-radius:20px;
+    padding:10px;
+}
+.geracao1,.geracao2
+{
+    color:white;
+    height:50px;
+    display:grid;
+    place-items:center;
+    cursor:pointer;
+}
+.nucleo .geracao1
+{
+    background-color:darkcyan;
+    width:100%;
+    border-radius:20px;
+}
+.nucleo .geracao2
+{
+    background-color:darksalmon;
+    width:80%;
+    border-radius:20px;
+}
+.nucleo2 .geracao2
+{
+    background-color:green;
+    width:80%;
+    border-radius:20px;
+}
+.nucleo .geracao2:hover
+{
+    background-color:rgb(238, 185, 168);
+}
+.nucleo2 .geracao2:hover
+{
+    background-color:rgb(3, 197, 3);
+}
+
+.nucleo .deceased
+{
+    background-color:black;
+    border-radius:20px;
+    cursor:default;
+}
+
+.nucleo .geracao1:hover
+{
+    background-color:rgb(3, 201, 201);
+}
+.nucleo .deceased:hover
+{
+    background-color:black;
+}
+#janela.closed
+{
+    max-width:0px;
+    overflow:hidden;
+}
+#fundo2.closed
+{
+    max-width:0px;
+    overflow:hidden;
+}
