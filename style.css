@@ -170,3 +170,25 @@ span,a{
     max-width:0px;
     overflow:hidden;
 }
+@media only screen and (max-width: 600px) {
+    .nucleo0
+    {
+    background-color:lightblue;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 50px 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    " d a "
+    ". . "
+    ". . "
+    ". . "
+    ". . ";
+    place-items:center;
+   
+    width:90%;
+    height:90vh;
+    border-radius:20px;
+    padding:20px;
+    overflow:scroll;
+    }
+  }
